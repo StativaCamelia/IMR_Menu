@@ -9,7 +9,6 @@ public class GameLogic : MonoBehaviour {
     public GameObject aboutPanel;
     public GameObject exitPanel;
 
-    // Use this for initialization
     void Start()
     {
         mainMenuPanel.SetActive(true);
@@ -25,9 +24,7 @@ public class GameLogic : MonoBehaviour {
 
     }
 
-    //public void LoadScene(string scenename){
-    //SceneManager.LoadScene(scenename);
-    //}
+
 
     public void CreditClicked()
     {
